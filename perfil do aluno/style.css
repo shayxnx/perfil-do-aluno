@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    background-color: #fff9f3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #000000;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #e78daf;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fffaf7;
+    border: 1px solid #f6cedd;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #f6cedd;
+    vertical-align: top;
+}
+
+h3 {
+    background-color: #f6cedd;
+    padding: 10px;
+    margin: 0;
+    color: #e78daf;
+    text-align: center;
+}
+
+a {
+    color: #93b9c9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.dados-pessoais td {
+    vertical-align: top;
+}
+
+.dados-info {
+    width: 70%;
+}
+
+.foto {
+    width: 30%;
+    text-align: center;
+}
+
+/* lista de UCs */
+.ucs-tabela .ucs-titulo {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.ucs-tabela .ucs-lista ul {
+    margin-left: 25px; 
+}
+
+/* --- destacar meu nome --- */
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* fonte limpa e moderna */
+    font-size: 2.8rem;      /* maior que o padrão */
+    font-weight: 700;       /* negrito forte */
+    color: #ad4462;         /* tom rosa escuro */
+    text-align: center;     
+    letter-spacing: 3px;    /* espaçamento entre letras para elegância */
+    margin-bottom: 1.5rem;  /* espaço embaixo */
+    text-transform: capitalize; /* deixa as primeiras letras maiúsculas */
+    text-shadow: 1px 1px 2px #f6cedd; /* sombra suave para destaque */
+}
